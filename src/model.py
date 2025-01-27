@@ -24,7 +24,7 @@ train_path='./data/pro/train_pre.csv'
 def main():
     train_df=load_data(train_path)
     x_train,y_train=x_y_values(train_df)
-    model=LogisticRegression()
+    model=XGBClassifier()
     model_fit(model,x_train,y_train)
     save_model(model)
 

@@ -1,0 +1,4 @@
+[core]
+    remote = myayush
+['remote "myayush"']
+    url = C:\Users\ayush\AppData\Local\Temp\ayushstroage
